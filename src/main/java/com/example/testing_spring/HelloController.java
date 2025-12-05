@@ -9,4 +9,8 @@ public class HelloController{
     public String getGreeting(){
         return "Hello, World!";
     }
+    @GetMapping("/")
+    public String mainPage(){
+        return "Connected Successfully";
+    }
 }
